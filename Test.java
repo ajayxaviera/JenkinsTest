@@ -7,5 +7,6 @@ public class Test{
 
   public void myage(){
     System.out.println("My Age is 18");
+    System.out.println("Next year it is 19");
   }
 }
