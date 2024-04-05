@@ -7,12 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git url: 'https://github.com/ajayxaviera/JenkinsTest.git'
-            }
-        }
-
         stage('Compile') {
             steps {
                 sh 'javac Test.java'
