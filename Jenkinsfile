@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         jdk 'JDK11'
-        git 'default'
+        git 'Default'
     }
 
     stages {
