@@ -1,4 +1,3 @@
-@NonCPS
-def display(String name){
+def call(){
   echo "Hi I am Ajay!!!"
 }
